@@ -3,7 +3,7 @@ from supabase import create_client, Client
 
 # --- 配置区域 ---
 url: str = "https://zrdyupxefsridxdubfmb.supabase.co"
-key: str = "sb_publishable_xAGCOI7ESqFqXC5R4rCVkA_hXHUBXQ8"
+key: str = ""
 supabase: Client = create_client(url, key)
 
 def get_input(prompt, hide=False):
